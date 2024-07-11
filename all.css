@@ -45,23 +45,15 @@ h2{
 .mx-auto{
   margin: 0 auto;
 }
-.mt-1{
-  margin-top: 8px;
-}
-.mt-2{
-  margin-top: 16px;
-}
-.mt-3{
-  margin-top: 24px;
-}
-.mt-4{
-  margin-top: 32px;
-}
+
 .mt-5{
   margin-top: 40px;
 }
 .mt-6{
   margin-top: 48px;
+}
+.pt-160{
+  padding-top: 160px;
 }
 section{
   display: block;
@@ -94,6 +86,25 @@ section{
   font-size: 40px;
   line-height: 60px;
 }
+.VE-text li{
+  margin-bottom: 8px; 
+}
+.VE-text li:last-child{
+  margin-bottom: 0px; 
+}
+.E-text li, .W-text li{
+  margin-bottom: 16px; 
+}
+.E-text li:last-child, .W-text li:last-child{
+  margin-bottom: 0px; 
+}
+.A-text li{
+  margin-bottom: 12px; 
+}
+.A-text li:last-child{
+  margin-bottom: 0px; 
+}
+
 .gray-94{
   color: #949494;
 }
